@@ -1,0 +1,360 @@
+@media screen and (max-width: 1441px) {
+  .footer_main p:nth-child(2) {
+    width: 150px;
+  }
+  .footer {
+    overflow: hidden;
+  }
+  .login {
+    width: 100%;
+  }
+  .price_ {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .home,
+  .header {
+    margin: 0 auto;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .home,
+  .header {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .card_ {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .home {
+    padding: 10px 45px 0 45px;
+  }
+  .modal_icon_flex {
+    gap: 10px;
+  }
+
+  .modal_question {
+    padding: 0;
+  }
+  .modal__icon_flex p,
+  .modal__icon_flex .modal__icon svg {
+    display: none;
+  }
+  .modal__icon_flex {
+    margin-bottom: 10px;
+  }
+  .responsive-ul-list-modal {
+    display: flex;
+    flex-direction: column;
+    list-style-position: inside;
+    margin-bottom: 10px;
+  }
+  .modal {
+    overflow-y: auto;
+  }
+  .responsive-ul-list-modal li {
+    font-weight: 500;
+    font-size: 1.2em;
+    line-height: 140%;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  .home {
+    flex-direction: column;
+  }
+  .home_left {
+    width: auto;
+    margin-bottom: 25px;
+  }
+  .home_right {
+    margin: 0px;
+  }
+  .card_ {
+    width: 50%;
+  }
+  .header {
+    justify-content: space-between;
+  }
+  .header_logo {
+    width: 35%;
+  }
+  .header_logo svg {
+    width: 100%;
+  }
+  .header_icon {
+    width: 30%;
+    justify-content: flex-end;
+  }
+  .header_icon svg {
+    width: 25px;
+    height: 25px;
+    margin: 0 5px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 20px;
+  }
+  .modal_close_ {
+    justify-content: center;
+  }
+  .modal {
+    padding: 15px;
+    height: calc(100vh - 60px);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+  }
+  .center-fixed-modal {
+    align-items: flex-start;
+    padding-top: 30px;
+  }
+  .modal__icon_flex .modal__icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .responsive-ul-list-modal li {
+    font-size: 100%;
+  }
+  .modal_close_ svg {
+    width: 20px;
+    height: 20px;
+  }
+  .modal_question_card svg {
+    width: 10px;
+    height: 10px;
+  }
+  .modal_question_card_flex {
+    margin-bottom: 10px;
+  }
+  .modal_question_card p {
+    font-size: 14px;
+  }
+  .modal_question_card_answer.active {
+    font-size: 12px;
+  }
+  .modal_question_card_answer.active,
+  .modal_question_card {
+    padding: 10px;
+  }
+  .form_login p {
+    font-size: 12px;
+  }
+  .price_ input {
+    font-size: 20px;
+  }
+  .input_radio p {
+    font-size: 16px;
+  }
+  .checkbox_inp p {
+    font-size: 12px;
+  }
+  .home_form_icon p {
+    font-size: 16px;
+  }
+  .login > input {
+    font-size: 20px;
+  }
+  .home_left > h1 {
+    font-size: 30px;
+  }
+  .header {
+    padding: 15px 20px;
+  }
+  .home {
+    padding: 0px 20px;
+  }
+  .form_login_flex {
+    width: 205px;
+  }
+  .home_left .forma button {
+    font-size: 20px;
+  }
+  .home_price_flex p {
+    font-size: 16px;
+  }
+  .footer_main p:nth-child(1) {
+    font-size: 12px;
+  }
+  .footer_main p:nth-child(2) {
+    font-size: 12px;
+    width: 120px;
+  }
+  .login {
+    padding: 10px;
+  }
+  .price_ {
+    padding: 10px;
+  }
+  .form_login {
+    padding: 10px;
+  }
+  .modal_login-body {
+    padding: 10px;
+    max-width: 90%;
+    height: max-content;
+  }
+  .modal_icon_close {
+    justify-content: center;
+    padding-top: 10px;
+  }
+  .modal_icon_close svg {
+    width: 20px;
+    height: 20px;
+  }
+  .modal_account_img {
+    padding: 0;
+  }
+  .modal_account_img img {
+    width: 100%;
+  }
+  .home_right > p,
+  .modal_title span a,
+  .modal_title p {
+    font-size: 14px;
+  }
+  .modal_btn {
+    font-size: 16px;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .button-linear {
+    padding: 10px;
+  }
+  .master_card .error-input-text {
+    position: absolute;
+    margin-top: -20px;
+  }
+  .error-input-text {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 582px) {
+  .header {
+    padding: 20px;
+  }
+  .d-grid-checkbox {
+    width: 20px;
+  }
+  .login > input {
+    width: 100%;
+  }
+  .form_login_flex {
+    width: 100%;
+  }
+  .login {
+    margin-bottom: 10px;
+  }
+  .price_ svg,
+  .form_login_flex svg {
+    width: 22px;
+    height: 22px;
+  }
+  .form_login {
+    font-size: 12px;
+    padding: 6px 8px;
+  }
+  .form_login svg {
+    width: 12px;
+    height: 12px;
+  }
+  .price_ input,
+  .login > input {
+    font-size: 14px;
+  }
+  .input_radio svg {
+    width: 12px;
+    height: 12px;
+  }
+
+  .home_right {
+    background: none;
+    border: none;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 412px) {
+  .home {
+    padding: 5px 20px;
+  }
+
+  .card_ {
+    max-width: 28vw;
+    width: 100%;
+    height: 85px;
+  }
+  .home_left > h1 {
+    font-size: 20px;
+  }
+  .home_form_icon p {
+    font-size: 14px;
+  }
+  .login > input {
+    width: 75%;
+    font-size: 14px;
+  }
+  .price_ input {
+    font-size: 14px;
+  }
+  .input_radio p {
+    font-size: 14px;
+  }
+  .home_left .forma button {
+    font-size: 16px;
+    padding: 15px 0;
+  }
+  .d-grid-checkbox {
+    width: 40px;
+  }
+  .home_price_flex p {
+    font-size: 14px;
+  }
+  .home_price_flex p:nth-child(2) {
+    font-size: 16px;
+  }
+  .card_ img {
+    width: 100%;
+  }
+  .master_card_flex {
+    flex-direction: column;
+    gap: 2vw;
+  }
+  .master_card {
+    display: flex;
+    justify-content: space-between;
+  }
+  .card_ {
+    margin-right: 12px;
+  }
+  .form_login p {
+    font-size: 8px;
+  }
+  .card_ {
+    padding: 5px;
+  }
+  .footer {
+    padding: 10px;
+  }
+  .form_login {
+    padding: 5px 12px;
+  }
+  .home_price_flex {
+    margin-bottom: 12px;
+  }
+  .header_logo svg {
+    height: 40px;
+  }
+  .error-input-text {
+    font-size: 10px;
+  }
+}
